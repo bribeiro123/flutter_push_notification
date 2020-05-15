@@ -1,7 +1,9 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_push_notification/provider/firebase_push_notification.dart';
+
 import 'package:flutter_push_notification/services/send-messaging-firebase.dart';
+
+import '../firebase_push_notification.dart';
 
 
 class MyHomePage extends StatefulWidget {
